@@ -1,0 +1,45 @@
+.shopBlock {
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.cartBlock { 
+    width: 200px;
+    height: 400px;
+    background: #ccc;
+    padding: 5px;
+    border: solid 1px black; 
+}
+
+.storeBlock { 
+    width: 200px;
+    height: 400px; 
+    background: #fc0;
+    padding: 5px; 
+    border: solid 1px black; 
+}
+
+.totalBlock {
+    width: 150px;
+    background: #ccc;
+    padding: 5px;
+    border: solid 1px black;
+    margin-bottom: 2px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.entryButton {
+    width: 150px;
+    background: #A2D9CE;
+    padding: 5px;
+    border: solid 1px #53bba6;
+    margin-bottom: 2px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.entryButton:hover {
+    background: #EC8A4B;
+    border: solid 1px #F0782B;
+}
